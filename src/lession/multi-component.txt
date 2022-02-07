@@ -1,0 +1,48 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div>
+      <Nav />
+      <h1>Hello World</h1>
+      <h1>Welcome</h1>
+      <button className="btn btn-primary">Bootstrap Button</button>
+      <NextComponent />
+    </div>
+  );
+}
+
+function Nav() {
+  const imageStyle = {
+    width: '300px',
+    heigth: '300px',
+  }
+
+  return (
+    <div>
+      <img src={logo} alt="logo"
+        style={ imageStyle}
+        // style={
+        //   {
+        //     width: '200px',
+        //     heigth: '200px',
+        //   }
+        //}
+      />
+    </div>
+  );
+}
+
+function NextComponent() {
+  return (
+    <div>
+      <h1>I am next component</h1>
+    </div>
+    
+  );
+}
+
+
+export default App;
