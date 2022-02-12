@@ -9,7 +9,7 @@ import Counters from './components/counters';
 import Movies from './components/movies';
 
 ReactDOM.render(
-  <App/>,
+  <Movies/>,
   document.getElementById('root')
 );
 
