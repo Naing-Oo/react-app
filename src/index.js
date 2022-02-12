@@ -6,9 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 import Counters from './components/counters';
+import Movies from './components/movies';
 
 ReactDOM.render(
-  <Counters/>,
+  <App/>,
   document.getElementById('root')
 );
 
